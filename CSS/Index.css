@@ -1,10 +1,30 @@
-#Indice{
-width: 50%;
-height: 50%;
-color: blue;
-}.Computadoras{
-    background-color: bisque;
-}
-a{
-    color: black;
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }#navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 -0.25% 0 0;
+ }#navegador li a {
+    padding: 2px 7px 3px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+
+ }#navegador li a:hover{
+    background-color: #946c6c;
+    color: #ffffff;
+ }li a {
+    border-radius: 1cm;
+ }main{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #ebc6c6;
+    height: 80cm;
+    background-image:url(../../Proyecto-final/Proyecto\ SSI\ \ V\ 1.0/Imagenes/Atardecer.png);
+}body{
+    background-color: rgb(194, 139, 211);
 }
